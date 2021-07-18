@@ -22,9 +22,13 @@ body {
 	font: 400 1rem / 1.5 "Rubik", sans-serif;
 	color: v("violet-dark-grayish");
 	background: v("white");
-	min-height: 100vh;
+}
+
+main {
+	display: flex;
 	padding: 4rem 0;
 	overflow-x: hidden;
+	min-height: 100vh;
 }
 
 svg {
@@ -34,6 +38,7 @@ svg {
 
 .section {
 	@extend %container;
+	margin: auto;
 
 	&__title {
 		font-size: 40px;
