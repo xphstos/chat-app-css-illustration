@@ -1,0 +1,30 @@
+@use "sass:color" as *;
+
+$colors: (
+	"white": hsl(0, 0%, 100%),
+	"black": hsl(0, 0%, 0%),
+	"violet-pale": hsl(276, 100%, 81%),
+	"violet-moderate": hsl(276, 55%, 52%),
+	"violet-dark-desaturated": hsl(271, 15%, 43%),
+	"violet-very-dark-desaturated": hsl(271, 36%, 24%),
+	"violet-dark-grayish": hsl(270, 7%, 64%),
+	"blue-grayish": hsl(206, 6%, 79%),
+	"gradient-magenta": hsl(293, 100%, 63%),
+	"gradient-violet": hsl(264, 100%, 61%),
+	"app-background": hsl(270, 20%, 96%),
+	"magenta-light": hsl(289, 100%, 72%),
+	// - Pale Violet (sub-heading at the top of the app UI):
+	// - Moderate Violet (chat on the left):
+	// - Desaturated Dark Violet (chat on the right):
+	// - Grayish Blue (placeholder text):
+	// - Very Dark Desaturated Violet (main heading):
+	// - Dark Grayish Violet (paragraph):
+	// - Very Light Magenta (radio button outline):
+);
+
+// Project Variables
+:root {
+	@each $name, $color in $colors {
+		--#{$name}: #{$color};
+	}
+}

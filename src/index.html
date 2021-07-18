@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+
+		<title>Frontend Mentor | [Challenge Name Here]</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./scss/style.scss" />
+	</head>
+	<body>
+		<svg width="0" height="0" style="display: none">
+			<defs>
+				<symbol id="arrow-left" viewBox="0 0 20 20" width="20" height="20">
+					<path
+						d="M8.388,10.049l4.76-4.873c0.303-0.31,0.297-0.804-0.012-1.105c-0.309-0.304-0.803-0.293-1.105,0.012L6.726,9.516c-0.303,0.31-0.296,0.805,0.012,1.105l5.433,5.307c0.152,0.148,0.35,0.223,0.547,0.223c0.203,0,0.406-0.08,0.559-0.236c0.303-0.309,0.295-0.803-0.012-1.104L8.388,10.049z"
+					></path>
+				</symbol>
+				<symbol id="arrow-right" viewBox="0 0 20 20" width="20" height="20">
+					<path
+						d="M11.611,10.049l-4.76-4.873c-0.303-0.31-0.297-0.804,0.012-1.105c0.309-0.304,0.803-0.293,1.105,0.012l5.306,5.433c0.304,0.31,0.296,0.805-0.012,1.105L7.83,15.928c-0.152,0.148-0.35,0.223-0.547,0.223c-0.203,0-0.406-0.08-0.559-0.236c-0.303-0.309-0.295-0.803,0.012-1.104L11.611,10.049z"
+					></path>
+				</symbol>
+				<symbol id="menu" viewBox="0 0 20 20" width="20" height="20">
+					<path
+						d="M3.936,7.979c-1.116,0-2.021,0.905-2.021,2.021s0.905,2.021,2.021,2.021S5.957,11.116,5.957,10
+								S5.052,7.979,3.936,7.979z M3.936,11.011c-0.558,0-1.011-0.452-1.011-1.011s0.453-1.011,1.011-1.011S4.946,9.441,4.946,10
+								S4.494,11.011,3.936,11.011z M16.064,7.979c-1.116,0-2.021,0.905-2.021,2.021s0.905,2.021,2.021,2.021s2.021-0.905,2.021-2.021
+								S17.181,7.979,16.064,7.979z M16.064,11.011c-0.559,0-1.011-0.452-1.011-1.011s0.452-1.011,1.011-1.011S17.075,9.441,17.075,10
+								S16.623,11.011,16.064,11.011z M10,7.979c-1.116,0-2.021,0.905-2.021,2.021S8.884,12.021,10,12.021s2.021-0.905,2.021-2.021
+								S11.116,7.979,10,7.979z M10,11.011c-0.558,0-1.011-0.452-1.011-1.011S9.442,8.989,10,8.989S11.011,9.441,11.011,10
+								S10.558,11.011,10,11.011z"
+					></path>
+				</symbol>
+			</defs>
+		</svg>
+		<main class="main">
+			<section class="section section--booking">
+				<div class="phone">
+					<div class="phone__screen">
+						<div class="app">
+							<div class="app__header header">
+								<button class="header__back back">
+									<svg class="back__icon">
+										<use xlink:href="#arrow-left"></use>
+									</svg>
+								</button>
+								<div class="header__user user">
+									<img src="./images/avatar.jpg" alt="" class="user__image" />
+									<div class="user__name">Samuel Green</div>
+									<div class="user__availability">Available to Walk</div>
+								</div>
+								<button class="header__menu menu">
+									<svg class="menu__icon">
+										<use xlink:href="#menu"></use>
+									</svg>
+								</button>
+							</div>
+							<div class="app__chat chat">
+								<div class="chat__bubble chat__bubble--others">
+									That sounds great. I’d be happy with that.
+								</div>
+								<div class="chat__bubble chat__bubble--others">
+									Could you send over some pictures of your dog, please?
+								</div>
+								<div
+									class="
+										chat__bubble chat__bubble--self chat__bubble--image-group
+									"
+								>
+									<div
+										class="chat__bubble chat__bubble--self chat__bubble--image"
+									>
+										<img
+											src="./images/dog-image-1.jpg"
+											alt=""
+											class="chat__image"
+										/>
+									</div>
+									<div
+										class="chat__bubble chat__bubble--self chat__bubble--image"
+									>
+										<img
+											src="./images/dog-image-2.jpg"
+											alt=""
+											class="chat__image"
+										/>
+									</div>
+									<div
+										class="chat__bubble chat__bubble--self chat__bubble--image"
+									>
+										<img
+											src="./images/dog-image-3.jpg"
+											alt=""
+											class="chat__image"
+										/>
+									</div>
+								</div>
+								<div class="chat__bubble chat__bubble--self">
+									Here are a few pictures. She’s a happy girl!
+								</div>
+								<div class="chat__bubble chat__bubble--self">
+									Can you make it?
+								</div>
+								<div class="chat__bubble chat__bubble--others">
+									She looks so happy! The time we discussed works. How long
+									shall I take her out for?
+								</div>
+								<div
+									class="
+										chat__bubble chat__bubble--others chat__bubble--offer
+										offer
+									"
+								>
+									<div class="offer__select"></div>
+									<div class="offer__text">30 minute walk</div>
+									<div class="offer__price">$29</div>
+								</div>
+								<div
+									class="
+										chat__bubble chat__bubble--others chat__bubble--offer
+										offer
+									"
+								>
+									<div class="offer__select"></div>
+									<div class="offer__text">1 hour walk</div>
+									<div class="offer__price">$49</div>
+								</div>
+							</div>
+							<div class="app__reply reply">
+								<input
+									type="text"
+									class="reply__input"
+									placeholder="Type a message"
+								/>
+								<button class="reply__send">
+									<svg class="reply__send-icon">
+										<use xlink:href="#arrow-right"></use>
+									</svg>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<header class="section__header">
+					<h1 class="section__title">Simple booking</h1>
+					<p class="section__description">
+						Stay in touch with our dog walkers through the chat interface. This
+						makes it easy to discuss arrangements and make bookings. Once the
+						walk has been completed you can rate your walker and book again all
+						through the chat.
+					</p>
+				</header>
+			</section>
+		</main>
+	</body>
+</html>
