@@ -6,4 +6,4 @@ This is a solution to the [Chat app CSS illustration challenge on Frontend Mento
 
 ### Links
 
-- Solution URL: [https://fc365c7e4f0bc17d207dcbafb5ad681e4d7af5f0.surge.sh](https://fc365c7e4f0bc17d207dcbafb5ad681e4d7af5f0.surge.sh)
+- Solution URL: [https://da22739b71fa75fec82d73a58dcdd14ec6194e6f.surge.sh](https://da22739b71fa75fec82d73a58dcdd14ec6194e6f.surge.sh)
